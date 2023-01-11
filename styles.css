@@ -147,6 +147,7 @@ padding: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    color: rgba(103, 57, 241, 0.824);
 }
 
 .link:hover{
@@ -160,7 +161,7 @@ p {
 }
 
 h2, h3 {
-    color: rgba(84, 40, 217, 0.824);
+    color: rgba(103, 57, 241, 0.824);
     padding: 10px;
     width: 200px;
     border-radius: 10px;
@@ -187,6 +188,7 @@ footer {
 footer a{
     color: #b584ff;
     text-decoration: none;
+    padding: 0.3em;
 }
 footer a:hover{
     color: darkviolet;
