@@ -1,229 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;0,500;1,200;1,300;1,400&display=swap"
-        rel="stylesheet" />
-    <title>SheCodes</title>
-</head>
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;0,500;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>chicacode - yoga - news</title>
+  </head>
 
-<style>
-    body {
-        font-family: "Barlow", sans-serif;
-        background: hsla(141, 54%, 86%, 1);
-
-        background: linear-gradient(90deg,
-                hsla(141, 54%, 86%, 1) 0%,
-                hsla(333, 73%, 85%, 1) 50%,
-                hsla(211, 58%, 79%, 1) 100%);
-
-        /* background: -moz-linear-gradient(
-        90deg,
-        hsla(141, 54%, 86%, 1) 0%,
-        hsla(333, 73%, 85%, 1) 50%,
-        hsla(211, 58%, 79%, 1) 100%
-      );
-
-      background: -webkit-linear-gradient(
-        90deg,
-        hsla(141, 54%, 86%, 1) 0%,
-        hsla(333, 73%, 85%, 1) 50%,
-        hsla(211, 58%, 79%, 1) 100%
-      ); */
-
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1);
-    }
-
-    ul {
-        list-style-type: none;
-        display: flex;
-        padding: 18px 0;
-        background-size: 400% 400%;
-        background-image: linear-gradient(-45deg,
-                #eca0ff,
-                #aab2ff,
-                #84ffc9,
-                #eca0ff,
-                #aab2ff);
-        animation: 12s myGradient infinite;
-        border-radius: 40px;
-        box-shadow: 3px 3px 20px #84ffc9;
-        border-top-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-
-    li a {
-        color: #fff;
-        text-decoration: none;
-        padding: 45px 45px;
-        font-family: verdana;
-        font-weight: lighter;
-        font-size: 24px;
-        letter-spacing: 1px;
-        opacity: 0.9;
-    }
-
-    .active {
-        transition: 1s;
-    }
-
-    .active1 {
-        transition: 1s;
-    }
-
-    .active2 {
-        transition: 1s;
-    }
-
-    .active3 {
-        transition: 1s;
-    }
-
-    li a {
-        color: #fff;
-        text-decoration: none;
-        padding: 45px 45px;
-        font-family: verdana;
-        font-weight: lighter;
-        font-size: 24px;
-        letter-spacing: 1px;
-        opacity: 0.9;
-    }
-
-    .image-conten {
-        display: flex;
-        justify-content: center;
-        padding: 20px 20px;
-    }
-
-    img {
-        border-radius: 10px;
-        width: 300px;
-        height: 300px;
-
-    }
-
-    .main-description {
-        margin: 0 auto;
-        text-indent: 50px;
-        text-align: justify;
-        letter-spacing: 3px;
-    }
-
-    button {
-        font-size: 16px;
-        color: #f3f3f3;
-        background-color: #eca0ff;
-        border: 1px solid #eca0ff;
-        box-shadow: #84ffc9;
-        padding: 20px;
-        width: 250px;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    button:hover {
-        cursor: pointer;
-        background-color: #eca0ffa1;
-    }
-
-    .link {
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-    }
-
-    .link:hover{
-        color: #84ffc9;
-    }
-
-    p {
-        color: #030303;
-        width: 500px;
-
-    }
-
-    h3 {
-        color: #fff;
-        padding: 10px;
-        background-color: #84ffc9;
-        width: 200px;
-        border-radius: 10px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    article {
-        display: flex;
-        justify-content: center;
-        padding: 10px 10px;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer a{
-        color: #b584ff;
-        text-decoration: none;
-    }
-    footer a:hover{
-        color: darkviolet;
-    }
-</style>
-
-<body>
+  <body>
     <header>
-        <div class="header">
-            <ul>
-                <li><a href="https://codepen.io/EneergeticTomy/" target="_blank" class="active">🧘Home</a></li>
-                <li><a href="https://codepen.io/TomikaBoy/full/LqMpaE" target="_blank" class="active1">News</a></li>
-                <li><a href="https://codepen.io/" target="_blank" class="active2">Contact</a></li>
-                <li><a href="https://w3schools.com/" target="_blank" class="active3">Yoga</a></li>
-                <div class="line"></div>
-                <li><a><i class="fa fa-search" onclick="show()">
-                        </i></a></li>
-            </ul>
-        </div>
+      <div class="header">
+        <ul class="ul">
+          <li class="li">
+            <a
+              href="https://codepen.io/EneergeticTomy/"
+              target="_blank"
+              class="active"
+              >🧘Home</a
+            >
+          </li>
+          <li class="li">
+            <a
+              href="https://codepen.io/TomikaBoy/full/LqMpaE"
+              target="_blank"
+              class="active1"
+              >News</a
+            >
+          </li>
+          <li class="li">
+            <a href="https://codepen.io/" target="_blank" class="active2"
+              >Contact</a
+            >
+          </li>
+          <li class="li">
+            <a href="https://w3schools.com/" target="_blank" class="active3"
+              >Yoga</a
+            >
+          </li>
+          <div class="line"></div>
+          <li class="li">
+            <a><i class="fa fa-search" onclick="show()"> </i></a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <section>
-        <h3>Discipline</h3>
-        <div>
+    <main class="main-container">
+      <section>
+        <div class="grid-container--1-sidebar">
+            <h2>Benefits of Yoga classes</h2>
+            <ul>
+                <li>increased flexibility.</li>
+                <li>increased muscle strength and tone.</li>
+                <li>improved respiration, energy and vitality.</li>
+                <li>maintaining a balanced metabolism.</li>
+                <li>weight reduction.</li>
+                <li>cardio and circulatory health.</li>
+                <li>improved athletic performance.</li>
+                <li>protection from injury.</li>
+            </ul>
+        </div>
+
+        <div class="grid-container--2-main">
+          <h3>Discipline</h3>
+          <div>
             <div class="image-conten">
-                <img src="https://images.unsplash.com/photo-1593164842249-d74fc06dae05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    alt="image yoga" />
+              <img
+                src="https://images.unsplash.com/photo-1593164842249-d74fc06dae05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                alt="image yoga"
+              />
             </div>
 
             <p class="main-description">
-                Yoga is a physical, mental and spiritual practice that originated in
-                ancient India. First codified by the sage Patanjali in his Yoga Sutras
-                around 400 C.E, the practice was in fact handed down from teacher to
-                student long before this text arose. Traditionally, this was a
-                one-to-one transmission, but since yoga became popular in the West in
-                the 20th century, group classes have become the norm.
+              Yoga is a physical, mental and spiritual practice that originated
+              in ancient India. First codified by the sage Patanjali in his Yoga
+              Sutras around 400 C.E, the practice was in fact handed down from
+              teacher to student long before this text arose. Traditionally,
+              this was a one-to-one transmission, but since yoga became popular
+              in the West in the 20th century, group classes have become the
+              norm.
             </p>
-    </section>
-    <article>
-        <div class="article">
-            <a href="https://es.wikipedia.org/wiki/Yoga" class="link" target="_blank">Learn more on Wikipedia</a>
-            <button id="button" style="width:200px;">Go to Yoga class</button>
+          </div>
         </div>
+      </section>
+      <article>
+        <div class="article grid-container--3-article">
+          <a
+            href="https://es.wikipedia.org/wiki/Yoga"
+            class="link"
+            target="_blank"
+            >Learn more on Wikipedia</a
+          >
+          <button id="button" style="width: 200px">Go to Yoga class</button>
+        </div>
+      </article>
 
+      <article>
+        <div class="article grid-container--4-article">
+          <a
+            href="https://es.wikipedia.org/wiki/Yoga"
+            class="link"
+            target="_blank"
+            >Follow up our new tutorial videos</a
+          >
+          <button id="button" style="width: 200px">Register now</button>
         </div>
-    </article>
+      </article>
+    </main>
+
     <footer>
-        👩‍💻 Code by
-        <a href="https://www.shecodes.io/c/chicacode">ChicaCode in SheCodes</a>
+      👩‍💻 Code by
+      <a href="https://github.com/chicacode/shecodes">ChicaCode in WMAD</a>
     </footer>
-</body>
-
+  </body>
 </html>
