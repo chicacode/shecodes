@@ -94,6 +94,8 @@ ul > li{
 }
 .main-container{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
 }
 .main-description {
     margin: 0 auto;
@@ -137,14 +139,14 @@ p {
 
 }
 
-h3 {
-    color: #fff;
+h2, h3 {
+    color: rgba(84, 40, 217, 0.824);
     padding: 10px;
-    background-color: #84ffc9;
     width: 200px;
     border-radius: 10px;
     margin: 0 auto;
     text-align: center;
+    font-size: 24px;
 }
 
 article {
