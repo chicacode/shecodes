@@ -111,17 +111,16 @@ ul > li {
   padding: 10px;
 }
 
+
+
 @media only screen and (max-width: 992px) {
     .main-container {
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 16px;
-      background-color: #282828;
+      grid-column-gap: 8px;
     }
   
-    .main-description{
-      color: #f3f3f3;
-    }
   }
+
 
 .grid-container--1-sidebar {
   margin: 20px;
@@ -135,6 +134,17 @@ ul > li {
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
   transform: translateY(-5px);
 }
+
+@media only screen and (max-width: 778px) {
+    .main-container {
+      grid-template-columns: 1fr;
+    }
+
+    .grid-container--1-sidebar{
+        margin: 10px;
+        box-shadow: none;
+    }
+  }
 button {
   font-size: 16px;
   color: #f3f3f3;
